@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 import LogItem from './LogItem'
+import PreLoader from '../layout/PreLoader'
 
 const Logs = () => {
   const [logs, setLogs] = useState([])
@@ -19,11 +20,11 @@ const Logs = () => {
   }, [])
 
   if (loading) {
-    return <h4>Loading</h4>
+    return <PreLoader />
   }
 
   return (
-    <ul className='collection-with-header'>
+    <ul className='collection with-header'>
       <li className='collection-header'>
         <h4 className='center'>System Logs</h4>
       </li>

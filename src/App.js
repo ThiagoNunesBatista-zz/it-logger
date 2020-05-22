@@ -14,7 +14,9 @@ function App () {
   return (
     <>
       <SearchBar />
-      <Logs />
+      <div className='container'>
+        <Logs />
+      </div>
     </>
   )
 }
