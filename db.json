@@ -1,35 +1,4 @@
 {
-  "logs": [
-    {
-      "id": 2,
-      "message": "clear internal components",
-      "tech": "John",
-      "attention": false,
-      "date": "2020-05-27T15:21:56.531Z"
-    },
-    {
-      "id": 3,
-      "message": "Change Wifi Passwords",
-      "tech": "Thiago",
-      "attention": false,
-      "date": "2020-05-27T15:22:04.436Z"
-    }
-  ],
-  "techs": [
-    {
-      "id": 1,
-      "firstName": "Thiago",
-      "lastName": "Nunes Batista"
-    },
-    {
-      "id": 2,
-      "firstName": "John",
-      "lastName": "Doe"
-    },
-    {
-      "id": 3,
-      "firstName": "Jane",
-      "lastName": "Doe"
-    }
-  ]
+  "logs": [],
+  "techs": []
 }
