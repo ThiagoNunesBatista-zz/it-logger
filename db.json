@@ -1,25 +1,18 @@
 {
   "logs": [
     {
-      "id": "1",
-      "message": "Changed hard drive on workstation 005",
+      "message": "clear internal components",
       "attention": false,
-      "date": "22-05-2020",
-      "tech": "Thiago Nunes Batista"
+      "tech": "John",
+      "date": "2020-05-27T14:28:02.918Z",
+      "id": 2
     },
     {
-      "id": "2",
-      "message": "Workstation 007 not posting",
-      "attention": true,
-      "date": "01-04-2020",
-      "tech": "John Doe"
-    },
-    {
-      "id": "3",
-      "message": "Changed memory on workstation 050",
+      "message": "Change Wifi Passwords",
       "attention": false,
-      "date": "01-01-2021",
-      "tech": "Jane Doe"
+      "tech": "Jane",
+      "date": "2020-05-27T14:28:13.935Z",
+      "id": 3
     }
   ],
   "techs": [
