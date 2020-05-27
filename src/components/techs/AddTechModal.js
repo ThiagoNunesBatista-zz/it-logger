@@ -21,6 +21,7 @@ const AddTechModal = ({ addTech }) => {
 
     // Clear Fields
     setFirstName('')
+    setLastName('')
   }
 
   return (

@@ -11,6 +11,8 @@ const AddLogModal = ({ addLog }) => {
   const [tech, setTech] = useState('')
 
   const onSubmit = () => {
+    console.log(message)
+    console.log(tech)
     if (message === '' || tech === '') {
       M.toast({ html: 'Please enter a message and tech' })
     } else {
@@ -45,6 +47,7 @@ const AddLogModal = ({ addLog }) => {
         <div className='row'>
           <div className='input-field'>
             <select name='tech' id='tech' value={tech} className='browser-default' onChange={e => setTech(e.target.value)}>
+              <option value='' disabled>Select Technician</option>
               <TechSelectOptions />
             </select>
           </div>
